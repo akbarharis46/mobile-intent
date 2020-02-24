@@ -29,4 +29,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ImplicitIntentActivity.class);
         startActivity(intent);
     }
+
+
+    public void handleandroidbundle(View view) {
+        Intent intent = new Intent(this, BundleActivity.class);
+        startActivity(intent);
+    }
 }
